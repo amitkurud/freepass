@@ -1,0 +1,11 @@
+apply plugin: 'java'
+ 
+repositories {
+        mavenCentral()       
+}
+
+task run {
+        dependsOn gradle.includedBuild('coreconfigms').task(':run')
+        dependsOn gradle.includedBuild('iam').task(':run')
+
+}
