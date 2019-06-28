@@ -5,7 +5,10 @@ repositories {
 }
 
 task run {
-        dependsOn gradle.includedBuild('coreconfigms').task(':run')
-        dependsOn gradle.includedBuild('iam').task(':run')
-
+        dependsOn gradle.includedBuild('coreconfigms')
+        dependsOn gradle.includedBuild('iam')
+}
+wrapper {
+         gradleVersion = "5.4.1"
+          
 }
