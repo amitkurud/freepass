@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.amitkurud.coreconfig",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "microservice",
+    "baseName": "coreconfigms",
+    "packageName": "com.amitkurud.coreconfig",
+    "packageFolder": "com/amitkurud/coreconfig",
+    "serverPort": "8026",
+    "authenticationType": "uaa",
+    "uaaBaseName": "iam",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "NjFjZDE2MmMzMDAwN2YyNzIyMzEzZGVlYTcxMmRiMGMyZWQwNDRkZWExZDEyMzFiZmI4M2Y5MzdhNDM5OWRjZDM5NDBhNTA5ZTQyYTgxMTkxYzAxN2U0OTEzNjBkMGRiZjlkNTIzNzRhYjIyYzExMjNmOTgyNTc3NTkzNjIwMWI=",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
