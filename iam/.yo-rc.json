@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.amitkurud.iam",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "uaa",
+    "baseName": "iam",
+    "packageName": "com.amitkurud.iam",
+    "packageFolder": "com/amitkurud/iam",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "YTFhM2RiODhmMTE4ZjI1NzYyMzdjYmY0NjEzNDEyZjIwMmNkNWYwY2NiZWY5M2U1MzRkOTUwNDllMGMwYjkyOGVhYzI1N2M0YmE5NWQ5NmFmYTVhZDIxOTU5MzIzZDk2YjdiNzdkNzM5YjY4NTViOGU2ZTZiOGVkNGI0OTIwYzQ=",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "skipClient": true
+  }
+}
